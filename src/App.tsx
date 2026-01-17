@@ -1,13 +1,18 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Index from './pages/Index';
+import { GlyphorBadge } from './components/GlyphorBadge';
+
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-black text-white">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold tracking-tight text-zinc-500">
-          Glyphor Fuse Skeleton
-        </h1>
-        <p className="mt-2 text-sm text-zinc-700">Waiting for generation...</p>
+    <Router>
+      <div className="relative min-h-screen w-full overflow-x-hidden bg-zinc-950">
+        <Routes>
+          <Route path="/" element={<Index />} />
+        </Routes>
+        <GlyphorBadge />
       </div>
-    </div>
+    </Router>
   );
 }
 
