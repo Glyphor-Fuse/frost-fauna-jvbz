@@ -14,20 +14,7 @@ export const Hero = () => {
         className="absolute inset-0 z-0"
       >
         <img 
-          src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/17947573/pexels-photo-17947573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="A stunning view of a basalt cave with rugged textures in Iceland. Perfect for adventure enthusiasts."
-    width="5772"
-    height="3838"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/a-person-standing-in-front-of-a-cave-17947573/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Gabriele Niek on Pexels
-    </a>
-  </div>
-</div>" 
+          src="https://images.pexels.com/photos/17947573/pexels-photo-17947573.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
           alt="Icelandic Glacier" 
           className="w-full h-[120%] object-cover object-center brightness-75"
         />

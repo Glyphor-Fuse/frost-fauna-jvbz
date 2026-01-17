@@ -63,20 +63,7 @@ export const Features = () => {
           <HighlightCard 
             title="The Aurora Borealis"
             subtitle="Natural Phenomenon"
-            image="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/31661630/pexels-photo-31661630.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
-    alt="Beautiful northern lights illuminating the Reykjavík night sky, capturing nature's vivid display."
-    width="2268"
-    height="4032"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/stunning-northern-lights-over-reykjavik-night-sky-31661630/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Edvinas Jakunskas on Pexels
-    </a>
-  </div>
-</div>"
+            image="https://images.pexels.com/photos/31661630/pexels-photo-31661630.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800"
             className="md:col-span-2 md:row-span-2 min-h-[400px]"
             delay={0}
           />
@@ -85,20 +72,7 @@ export const Features = () => {
           <HighlightCard 
             title="Glacial Lagoons"
             subtitle="Jökulsárlón"
-            image="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/6168279/pexels-photo-6168279.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Stunning icebergs floating in Jokulsarlon Glacier Lagoon, capturing the beauty of Iceland's icy landscape."
-    width="6000"
-    height="3376"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/ice-glaciers-on-lake-6168279/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Scott M. Graves on Pexels
-    </a>
-  </div>
-</div>"
+            image="https://images.pexels.com/photos/6168279/pexels-photo-6168279.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
             className="md:col-span-1 md:row-span-1 min-h-[300px]"
             delay={0.2}
           />
@@ -107,20 +81,7 @@ export const Features = () => {
           <HighlightCard 
             title="Geothermal Waters"
             subtitle="The Blue Lagoon"
-            image="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/20955080/pexels-photo-20955080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="People enjoying relaxation and recreation in Iceland's soothing Blue Lagoon geothermal spa."
-    width="5184"
-    height="2916"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/people-bathing-in-the-pool-of-the-blue-lagoon-geothermal-spa-in-iceland-20955080/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by It's MJ! on Pexels
-    </a>
-  </div>
-</div>"
+            image="https://images.pexels.com/photos/20955080/pexels-photo-20955080.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
             className="md:col-span-1 md:row-span-1 min-h-[300px]"
             delay={0.4}
           />

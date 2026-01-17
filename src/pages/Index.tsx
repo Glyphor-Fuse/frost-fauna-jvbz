@@ -41,20 +41,7 @@ const Index = () => {
         {/* Newsletter / Final CTA */}
         <section className="py-32 px-6 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
-             <img src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/34611635/pexels-photo-34611635.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Dramatic coastal landscape with misty mountains and black sands at Stokksnes, Iceland."
-    width="7000"
-    height="4666"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/misty-mountain-view-at-stokksnes-iceland-34611635/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Rino Adamo on Pexels
-    </a>
-  </div>
-</div>" className="w-full h-full object-cover opacity-20" />
+             <img src="https://images.pexels.com/photos/34611635/pexels-photo-34611635.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" className="w-full h-full object-cover opacity-20" />
              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 to-transparent" />
           </div>
           
