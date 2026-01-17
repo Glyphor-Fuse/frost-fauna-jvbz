@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Instagram, Twitter, Facebook, ArrowUp } from 'lucide-react';
 
 export const Footer = () => {

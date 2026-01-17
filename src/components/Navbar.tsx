@@ -1,28 +1,20 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Menu, Search } from 'lucide-react';
-import { useState, useEffect } from 'react';
 
 export const Navbar = () => {
   const { scrollY } = useScroll();
-  const [isScrolled, setIsScrolled] = useState(false);
   
   // Transform values for a dynamic navbar interaction
   const height = useTransform(scrollY, [0, 100], [96, 72]);
-  const bgOpacity = useTransform(scrollY, [0, 100], [0, 0.8]);
-  const backdropBlur = useTransform(scrollY, [0, 100], [0, 12]);
-
-  useEffect(() => {
-    return scrollY.onChange((latest) => {
-      setIsScrolled(latest > 50);
-    });
-  }, [scrollY]);
+  const backgroundColor = useTransform(scrollY, [0, 100], ["rgba(9, 9, 11, 0)", "rgba(9, 9, 11, 0.8)"]);
+  const backdropFilter = useTransform(scrollY, [0, 100], ["blur(0px)", "blur(12px)"]);
 
   return (
     <motion.nav
       style={{ 
         height, 
-        backgroundColor: `rgba(9, 9, 11, ${bgOpacity.get()})`,
-        backdropFilter: `blur(${backdropBlur.get()}px)`
+        backgroundColor,
+        backdropFilter
       }}
       className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 border-b border-white/0 transition-colors duration-500"
     >
